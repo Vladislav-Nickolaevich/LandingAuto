@@ -1,0 +1,281 @@
+/*Form section 6*/
+.form-under-work-with-us {
+    margin-top: -100px;
+    margin-left: 250px;
+    background-color: #092745;
+    width: 880px;
+    height: 380px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.form-text {
+    width: 380px;
+    height: 113px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.form-text h2 {
+    font-size: 34px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.form-container {
+    background-color: white;
+    width: 285px;
+    height: 300px;
+    margin-top: 50px;
+}
+.form {
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.form h4 {
+    margin-bottom: 25px;
+}
+.form-text-description {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.input-tel {
+    border: 0;
+    border-bottom: 1px solid #8296AB;
+    width: 210px;
+    height: 30px;
+    font-size: 17px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.btn-form {
+    margin: 20px 0;
+    padding: 10px 30px;
+    background-color: #E37639;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    width: 210px;
+}
+
+.btn-form:hover {
+    background-color: white;
+    color: #E37639;
+    border: 1px solid #E37639;
+    margin: 19px 0;
+}
+
+
+/*contacts us*/
+.contacts-to-us {
+    padding: 150px 0;
+}
+.contacts-to-us-container {
+    max-width: 560px;
+    height: 255px;
+    margin: 0 auto;
+}
+.contact-text {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/*form contact*/
+.contact-form {
+    display: flex;
+    text-align: center;
+}
+.contact-btn-and-description {
+    text-align: left;
+    margin-left: 20px;
+}
+.input-tel {
+    margin-top: 15px;
+}
+.btn.contact {
+    background-color: #E37639;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+}
+.contact-confidential-policy {
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #8296AB;
+    width: 218px;
+}
+
+
+/*Contacts in the footer*/
+.our-contacts-footer {
+    position: relative;
+    width: 400px;
+    height: 390px;
+    background-color: white;
+    bottom: 350px;
+    left: 300px;
+    z-index: 3;
+    padding: 35px 40px;
+}
+.our-contacts-footer-container {
+    width: 320px;
+    height: 320px;
+}
+.our-contacts-article {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400 !important;
+    line-height: 47px;
+    margin-top: 10px;
+}
+.contacts-footer-street {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #3F5468;
+    margin-bottom: 10px;
+}
+.contacts-footer-number {
+    font-family: Jost;
+    font-size: 37px;
+    font-weight: 400;
+    color: #3f5468;
+    margin-bottom: 10px;
+}
+.contacts-footer-text {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #8296ab;
+    margin-bottom: 30px;
+}
+
+/*btns in the footer contact of company*/
+.contacts-footer-btns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 40px;
+}
+.contacts-footer-btn {
+    padding: 9px 25px 9px 25px;
+    background-color: #092745;
+    color: white;
+}
+.whatsapp, .viber, .telegram{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+}
+
+/*modal*/
+.modal-content {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    max-height: 470px;
+    overflow-y: auto;
+}
+.modal-dialog {
+    max-width: 540px;
+    margin: 100px auto;
+}
+
+/*top*/
+.modal-head {
+    background-color: #092745;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.modal-close {
+    color: white;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+/*top*/
+
+.show {
+    display: block !important;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .5);
+}
+.modal-content h3 {
+    margin-top: 0;
+}
+.modal-tel input {
+    border: 1px solid #8296AB;
+    padding: 10px 20px;
+    width: 258px;
+    height: 43px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.modal-head-input {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #3F5468;
+}
+.other-info textarea {
+    border: 1px solid #8296AB;
+    padding: 10px 20px;
+    width: 455px;
+    height: 148px;
+    font-size: 18px;
+}
+.modal-btn-and-text {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.modal-btn-and-text .btn {
+    background-color: #E37639;
+    color: white;
+    padding: 10px 30px;
+
+}
+.modal-btn-and-text p {
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 15px;
+    color: #8296ab;
+}
+

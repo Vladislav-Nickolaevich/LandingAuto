@@ -1,0 +1,434 @@
+/*Menu*/
+@media (max-width: 767px) {
+    .lock{
+        overflow: hidden;
+    }
+    .header_body{
+        height: 50px;
+    }
+    .header_logo{
+        flex: 0 0 40px;
+    }
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .header_burger span{
+        position: absolute;
+        background-color: #E37639;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header_burger:before,
+    .header_burger:after{
+        content: '';
+        background-color: #E37639;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+
+    }
+    .header_burger:before{
+        top:0;
+    }
+    .header_burger:after{
+        bottom: 0;
+    }
+    .header_burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header_burger.active span{
+        transform: scale(0);
+    }
+    .header_menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #092745;
+        padding: 90px 10px 0 40px;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+    .header_menu.active{
+        top: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header_list{
+        display: block;
+    }
+    .header_list li{
+        margin: 0 0 20px 0;
+    }
+    .header_link{
+        color: white;
+        font-size: 24px;
+    }
+}
+
+/*Home page*/
+@media (max-width: 1200px) {
+    .home-page {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .home-page-text-counter {
+        max-width: 100%;
+    }
+    .home-page-description {
+        width: 100%;
+    }
+}
+@media (max-width: 750px) {
+    .home-page{
+        margin-top: 60px;
+    }
+    .home-page-guaranty h1 {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 62px;
+        text-align: left;
+    }
+    .home-page-text-counter {
+        max-width: 100%;
+    }
+    .counter-number {
+        font-size: 36px;
+    }
+    .counter-text {
+        font-size: 15px;
+    }
+}
+
+/*Why we*/
+@media (max-width: 1480px) {
+    .why-we-description-and-button {
+        width: 665px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-we-button {
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 1250px) {
+    .why-we {
+        margin-left: 0;
+        padding: 40px 10px 100px 10px;
+        margin-bottom: 100px;
+    }
+    .why-we h2 {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 965px) {
+    .why-we-description-and-button {
+        width: 500px;
+        height: 230px;
+    }
+}
+@media (max-width: 767px) {
+    .why-we-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-we-advantages-and-description {
+        max-width: 100%;
+    }
+
+    .why-we-description-and-img {
+        margin: 0 auto;
+    }
+
+    .why-we-advantages-btn-list {
+        width: 100%;
+        border-bottom: 2px solid #3B3E49;
+        border-right: none;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+}
+
+/*Our service*/
+@media (max-width: 1218px) {
+    .our-service-container {
+        max-width: 1000px;
+        max-height: 1200px;
+    }
+    .our-service {
+        width: 100%;
+        height: 100%;
+    }
+    .our-service-card {
+        height: 390px;
+        width: 312px;
+    }
+    .card-title-and-img {
+        width: 312px;
+        height: 270px;
+    }
+    .first-card img {
+        position: relative;
+        bottom: 25px;
+        width: 290px;
+    }
+    .second-card img {
+        position: relative;
+        top: 30px;
+        left: 50px;
+        width: 240px;
+    }
+    .third-card img {
+        position: relative;
+        top: 40px;
+        left: 70px;
+        width: 240px;
+    }
+    .fourth-card img {
+        position: relative;
+        top: 50px;
+        width: 307px;
+    }
+    .fifth-card img {
+        position: relative;
+        top: 50px;
+        left: 60px;
+        width: 240px;
+    }
+    .sixth-card img {
+        position: relative;
+        top: 40px;
+        left: 10px;
+        width: 283px;
+    }
+}
+@media (max-width: 980px) {
+    .our-service-container {
+        max-height: 1370px;
+        max-width: 75%;
+    }
+    .our-service {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 750px) {
+    .our-service-container {
+        max-height: 2600px;
+        max-width: 370px;
+    }
+    .our-service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1218px) {
+    .our-service-price-and-button {
+        margin-top: 5px;
+    }
+}
+
+/*Work with us*/
+@media (max-width: 1380px) {
+    .work-with-us {
+        margin-left: 100px;
+    }
+    .work-with-us-container {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1120px) {
+    .work-with-us {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 900px) {
+    .work-with-us-stages-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-with-us-stages-card {
+        border-top: none;
+        border-left: 1px solid #E37639;
+        width: 100%;
+        padding-left: 20px;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .work-with-us-stages-card:last-child {
+        padding-bottom: 0;
+    }
+    .work-with-us-stages-card:nth-child(0) {
+        margin-top: -1px;
+    }
+    .work-with-us-stages-card h3 {
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+    .work-with-us-stages-card:before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #E37639;
+        top: 0;
+        left: -5px;
+    }
+}
+
+/*Before section*/
+@media (max-width: 1700px) {
+    .before-fix-description-wrapper {
+        width: 500px;
+    }
+    .before-img-wrapper {
+        position: relative;
+        left: 560px;
+        top: -270px;
+    }
+}
+@media (max-width: 1550px) {
+    .before-container {
+        max-width: 100%;
+        margin-left: 0;
+        height: 550px;
+    }
+    .before-fix-description-and-img {
+        display: flex;
+        width: 100%;
+    }
+    .before-fix-description-wrapper {
+        width: 100%;
+    }
+    .fix-description {
+        width: 80%;
+    }
+    .before-img-wrapper {
+        position: sticky;
+        display: flex;
+    }
+}
+@media (max-width: 1038px) {
+    .before {
+        margin-left: 2%;
+    }
+    .before-fix-description-wrapper h4 {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1006px) {
+    .before-container {
+        height: 800px;
+    }
+    .before-fix-description-and-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .fix-description {
+        width: 100%;
+    }
+}
+
+/*After section*/
+@media (max-width: 1550px) {
+    .after {
+        margin-top: 0;
+        width: 100%;
+    }
+    .after-description {
+        margin-left: 5%;
+    }
+}
+@media (max-width: 1038px) {
+    .after-description {
+        margin-left: 2%;
+    }
+}
+
+/*Map*/
+@media (max-width: 880px) {
+    #map {
+        height: 300px;
+    }
+}
+
+/*Footer*/
+@media (max-width: 880px) {
+    .footer {
+        position: static;
+        height: 50px;
+        align-items: center;
+    }
+}
+
+
+/*forms*/
+/*form under work*/
+@media (max-width: 1120px) {
+    .form-under-work-with-us {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1000px) {
+    .form-under-work-with-us {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 900px) {
+    .form-under-work-with-us {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 780px) {
+    .form-under-work-with-us {
+        width: 100%;
+    }
+}
+
+
+/*our contacts*/
+@media (max-width: 1500px) {
+    .our-contacts-footer {
+        position: relative;
+        left: 150px;
+    }
+}
+@media (max-width: 1160px) {
+    .our-contacts-footer {
+        position: relative;
+        left: 10px;
+    }
+}
+@media (max-width: 880px) {
+    .our-contacts-footer {
+        position: static;
+        margin: 0 auto;
+    }
+}
