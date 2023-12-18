@@ -11,7 +11,7 @@
 }
 .form-text {
     width: 380px;
-    height: 113px;
+    height: 210px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -78,7 +78,7 @@
 }
 .contacts-to-us-container {
     max-width: 560px;
-    height: 255px;
+    height: 300px;
     margin: 0 auto;
 }
 .contact-text {
@@ -130,7 +130,7 @@
     padding: 35px 40px;
 }
 .our-contacts-footer-container {
-    width: 320px;
+    width: 340px;
     height: 320px;
 }
 .our-contacts-article {
