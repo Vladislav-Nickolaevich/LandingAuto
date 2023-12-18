@@ -1,6 +1,6 @@
 //brands images
 function setImgBrands(arr, className){
-    const brands = arr.map(el => `<span><img src="img/brand/${el}.png"/></span>`)
+    const brands = arr.map(el => `<span><img src="img/brand/${el}.png" alt='Картинка'/></span>`)
                       .join('');
 
     document.querySelector(className).innerHTML = brands;
@@ -13,7 +13,7 @@ function createdCards(arr, className){
          <div class="our-service-card">
             <div class="card-title-and-img ${el.id}">
                 <p>${el.title}</p>
-                <img src=${el.img}/>
+                <img src=${el.img} alt='Картинка'/>
             </div>
             <div class="our-service-price-and-button">
                 <span>${el.price}</span>
