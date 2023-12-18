@@ -432,3 +432,220 @@
         margin: 0 auto;
     }
 }
+
+/*Media for the phone*/
+@media (max-width: 686px) {
+    .work-with-us-container {
+        height: 730px;
+    }
+}
+
+@media (max-width: 610px) {
+    .work-with-us-container {
+        height: 790px;
+    }
+
+    .form-under-work-with-us {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-text {
+        width: 347px;
+    }
+
+
+    .before {
+        margin: 0 auto;
+    }
+
+    .before-container {
+        height: 1300px;
+    }
+
+    .before-img-wrapper {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .before-first-img {
+        margin-bottom: 10px;
+    }
+
+
+    .contacts-to-us-container {
+        max-width: 420px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .why-we-description-and-img {
+        width: 96%;
+        height: 500px;
+        margin: 0 2%;
+    }
+    .why-we-image-wrapper img {
+        width: 100%;
+    }
+    .why-we-description-and-button {
+        width: 100%;
+        height: 240px;
+    }
+    .why-we-description-wrapper {
+        height: 200px;
+        max-height: 100%;
+    }
+    .why-we-button {
+        justify-content: center;
+    }
+
+
+
+    .work-with-us-container {
+        height: 900px;
+    }
+
+
+    .our-service-container h2 {
+        margin-left: 5%;
+    }
+    .our-service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .after {
+        height: 200px;
+    }
+    .after-description {
+        margin: 0 5%;
+    }
+
+
+    .contacts-to-us-container {
+        max-width: 300px;
+    }
+    .contact-form {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+    }
+
+
+    .modal-dialog {
+        max-width: 500px;
+    }
+    .other-info textarea {
+        width: 400px;
+    }
+}
+
+@media (max-width: 510px) {
+    .modal-dialog {
+        max-width: 390px;
+    }
+    .other-info textarea {
+        width: 330px;
+    }
+}
+
+@media (max-width: 470px) {
+    /*home page*/
+    .home-page-number-and-text-container {
+        text-align: center;
+        margin: 0 2%;
+    }
+    .counter-text {
+        font-size: 13px;
+    }
+
+
+    .before-container {
+        height: 1400px;
+    }
+
+}
+
+@media (max-width: 416px) {
+    .home-page-guaranty {
+        margin: 0 5%;
+    }
+
+
+    .why-we-description-and-button {
+        height: 300px;
+    }
+
+    .work-with-us-container {
+        height: 1100px;
+    }
+
+
+    .modal-dialog {
+        max-width: 370px;
+    }
+    .modal-content {
+        max-height: 550px;
+    }
+    .modal-btn-and-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 110px;
+    }
+    .modal-btn-and-text p {
+        margin: 0 5%;
+    }
+    .other-info textarea {
+        width: 290px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .our-contacts-footer {
+        height: 550px;
+        width: 100%;
+    }
+    .our-contacts-footer-container {
+        height: 100%;
+        margin: 0 5%;
+        width: 90%;
+    }
+    .contacts-footer-btns-wrapper {
+        flex-direction: column;
+        margin: 0 auto;
+        height: 130px;
+        width: 150px;
+    }
+    .contacts-footer-number {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 355px) {
+    .form-under-work-with-us {
+        height: 650px;
+    }
+
+    .form-text {
+        width: 320px;
+    }
+
+    .form-container {
+        margin-top: 70px;
+    }
+
+    .other-info textarea {
+        width: 260px;
+    }
+}
