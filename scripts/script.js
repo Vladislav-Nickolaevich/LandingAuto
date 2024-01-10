@@ -1,8 +1,14 @@
 //brands images
 function setImgBrands(arr, className){
-    const brands = arr.map(el => `<span><img src="img/brand/${el}.png" alt='Картинка'/></span>`)
-                      .join('');
-
+    let brands;
+    if (document.documentElement.clientWidth > 1200) {
+        brands = arr.map(el => `<span><img src="img/brand/${el}.png" alt="Картинка"/></span>`)
+            .join('');
+    } else if(document.documentElement.clientWidth < 768){
+        let newArr = [...arr.slice(0, 4), ...arr.slice(-1)]
+        brands = newArr.map((el, i  )=> `<span><img src="img/brand/${el}.png" alt="Картинка"/></span>`)
+            .join('');
+    }
     document.querySelector(className).innerHTML = brands;
 }
 
